@@ -22,13 +22,11 @@ public class palindrome {
 		// Initialises integer variable for length of word
 		int len = a.length();
 
-		// For loop is set up to go through each character of the word from the
-		// start and compares the character at same position from the end of the
-		// word
+		// For loop initialised to traverse through half the characters of the word
 		for (int i = 0; i < (a.length() / 2); i++) {
-			// If statement checks if the statement of two characters equals each other is false
+			// If statement checks if two characters does not equal each other
 			if (a.charAt(i) != a.charAt(len - 1 - i)){
-				// Returns a '[word] is not a palindrome' statement if neither character are the same
+				// Returns a '[word] is not a palindrome' statement if both character do not equal each other
 				return a + " is not a palindrome";
 			}
 		}
