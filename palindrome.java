@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class palindrome2 {
+public class palindrome {
 	public static void main(String args[]) {
 		// Initialises scanner for input and a string variable for input
 		Scanner in = new Scanner(System.in);
