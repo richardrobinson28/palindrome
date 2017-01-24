@@ -23,7 +23,7 @@ public class palindrome {
 		int len = a.length();
 
 		// For loop initialised to traverse through half the characters of the word
-		for (int i = 0; i < (a.length() / 2); i++) {
+		for (int i = 0; i <= (a.length() / 2); i++) {
 			// If statement checks if two characters does not equal each other
 			if (a.charAt(i) != a.charAt(len - 1 - i)){
 				// Returns a '[word] is not a palindrome' statement if both character do not equal each other
